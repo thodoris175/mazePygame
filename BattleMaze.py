@@ -78,7 +78,7 @@ for current_round in range(1, 4):  # 3 rounds
 
         screen.fill((0, 0, 0))
         Font = pygame.font.SysFont("comicsansms", 70, True, True)
-        Title = Font.render("Maze Finder", True, (255, 255, 255))
+        Title = Font.render("Battle Maze", True, (255, 255, 255))
         screen.blit(Title, (190, 350))
 
         surf = pygame.image.load(p1).convert_alpha()
@@ -189,7 +189,7 @@ while not done:
     screen.fill((0, 0, 0))
 
     Font = pygame.font.SysFont("comicsansms", 70, True, True)
-    Title = Font.render("Maze Finder", True, (255, 255, 255))
+    Title = Font.render("Battle Maze", True, (255, 255, 255))
     screen.blit(Title, (190, 350))
 
     Font4 = pygame.font.SysFont("comicsansms", 35, True, True)
@@ -212,3 +212,4 @@ while not done:
 
     pygame.display.flip()
     clock.tick(60)
+
